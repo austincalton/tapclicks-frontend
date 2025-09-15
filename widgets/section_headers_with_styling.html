@@ -40,8 +40,16 @@
 #legacy-html .design-page .media-type-widget .widget-header {
   height: 0px !important;
 }
-#legacy-html .design-page .media-type-widget .widget-header .widget-title {
+#legacy-html .design-page .media-type-widget .widget-header .widget-title,
+.design-page .widget-header span.widget-title.display {
   display: none !important;
+}
+#legacy-html body.exporting media-widget {
+  overflow: visible;
+}
+#legacy-html body.exporting media-widget .paragraph-container .header-widget-spacer {
+  padding-top: 0px !important;
+  margin-top: -30px;
 }
 #legacy-html .design-widget .widget-inner .widget-header .widget-title-container span.widget-title.link a {
   text-transform: uppercase;
