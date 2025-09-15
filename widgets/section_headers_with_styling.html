@@ -40,16 +40,8 @@
 #legacy-html .design-page .media-type-widget .widget-header {
   height: 0px !important;
 }
-#legacy-html .design-page .media-type-widget .widget-header .widget-title,
-.design-page .widget-header span.widget-title.display {
+#legacy-html .design-page .media-type-widget .widget-header .widget-title {
   display: none !important;
-}
-#legacy-html body.exporting media-widget {
-  overflow: visible;
-}
-#legacy-html body.exporting media-widget .paragraph-container .header-widget-spacer {
-  padding-top: 0px !important;
-  margin-top: -30px;
 }
 #legacy-html .design-widget .widget-inner .widget-header .widget-title-container span.widget-title.link a {
   text-transform: uppercase;
@@ -89,10 +81,10 @@
 #legacy-html .design-page .widget-inner table tr td {
   border: none;
 }
-#legacy-html .design-page .widget-inner table tr.even td {
+#legacy-html .design-page .widget-inner table tr.even td:not([style*="background-color"]) {
   background-color: rgba(255,255,255,0.95) !important;
 }
-#legacy-html .design-page .widget-inner table tr.odd td {
+#legacy-html .design-page .widget-inner table tr.odd td:not([style*="background-color"]) {
   background-color: rgba(255,255,255,0.75) !important;
 }
 #legacy-html .design-page .widget-inner table thead {
