@@ -1,0 +1,257 @@
+<div class="header-widget-spacer" style="padding: 30px 0px 0px;"><p style="text-align: left; font-size: 36px; color: #0e223f; font-family: 'Lucida Grande'">Section Header Text</p><div style="display: block; height: 4px; width: 50px; background: #ff4438; margin: 10px 0px 0px;"></div></div>
+
+<style>
+.design-page:after {
+  content: "";
+  background-image: linear-gradient(335deg, rgba(255,255,255,1) 0%, rgba(248,252,255,1) 100%);
+  position: fixed;
+  top: 0;
+  left: -10px;
+  right: -10px;
+  bottom: 0;
+  opacity: 1;
+  z-index: -1;
+}
+#legacy-html #legacy-app #dashboard-filter-header {
+  background: rgba(255,255,255,0);
+}
+#legacy-html #legacy-app #dashboard-filter-header.fixed {
+  background: rgba(255,255,255,1);
+}
+#legacy-html div.design-page ul.nav-tabs li:hover {
+  border-bottom-color: #737c84;
+}
+#legacy-html #legacy-app ul.nav-tabs a:hover {
+  border-bottom-color: transparent !important;
+}
+#legacy-html div.widget-loaded-container.overlay {
+  background-color: #fff;
+}
+#legacy-html div.widget-loaded-container div.loaded-panel {
+  background-color: #f2faff;
+}
+#legacy-html .design-page .widget-inner {
+  background-color: #fff !important;
+}
+#legacy-html .design-page .media-type-widget .widget-inner {
+  box-shadow: none !important;
+  background: transparent !important;
+}
+#legacy-html .design-page .media-type-widget .widget-header {
+  height: 0px !important;
+}
+#legacy-html .design-page .media-type-widget .widget-header .widget-title,
+.design-page .widget-header span.widget-title.display {
+  display: none !important;
+}
+#legacy-html body.exporting media-widget {
+  overflow: visible;
+}
+#legacy-html body.exporting media-widget .paragraph-container .header-widget-spacer {
+  padding-top: 0px !important;
+  margin-top: -30px;
+}
+#legacy-html .design-widget .widget-inner .widget-header .widget-title-container span.widget-title.link a {
+  text-transform: uppercase;
+  letter-spacing: .6px;
+}
+#legacy-html .design-widget .widget-inner .widget-header .widget-title-container span.widget-title.link a span {
+  font-size: 12px !important;
+}
+#legacy-html .design-page .widget-inner .circle-container .title {
+  text-indent: 0px !important;
+}
+#legacy-html .design-page .widget-inner .circle-container .subtitle {
+  margin-top: 15px;
+  color: #8a8a8d;
+}
+#legacy-html .design-page .widget-inner .circle-container .is-comparing .delta-value {
+  font-size: 14px !important;
+  margin: auto;
+}
+#legacy-html .design-page .widget-inner .circle-container .is-comparing .delta-value.positive-delta,
+#legacy-html .design-page .widget-inner table .value-container .delta.positive {
+  color: #00C78D !important;
+}
+#legacy-html .design-page .widget-inner .circle-container .is-comparing .delta-value.negative-delta,
+#legacy-html .design-page .widget-inner table .value-container .delta.negative {
+  color: #0e223f !important;
+}
+#legacy-html .design-page .widget-inner .circle-container .is-comparing .delta-value i {
+  font-size: 13px !important;
+}
+#legacy-html .design-page .widget-inner table .value-container .delta i {
+  font-size: 10px !important;
+}
+#legacy-html .design-page .widget-inner table tbody {
+  background-color: #A3D1F0 !important;
+}
+#legacy-html .design-page .widget-inner table tr td {
+  border: none;
+}
+#legacy-html .design-page .widget-inner table tr.even td {
+  background-color: rgba(255,255,255,0.95) !important;
+}
+#legacy-html .design-page .widget-inner table tr.odd td {
+  background-color: rgba(255,255,255,0.75) !important;
+}
+#legacy-html .design-page .widget-inner table thead {
+  background-color: #fff;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > :not(.circle-container) {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px;
+  height: auto !important;
+  min-height: 10rem;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > :not(.circle-container) .card-label {
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > :not(.circle-container) .value-container {
+  position: relative;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > :not(.circle-container) .value-container > .value {
+  width: 100%;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > .is-comparing:not(.circle-container) .value-container .value {
+  margin-bottom: 10px;
+}
+#legacy-html .design-page .widget-inner .value-container .subtitle {
+  margin-top: 0px;
+  color: #bbb;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > .is-comparing:not(.circle-container) .value-container > :not(.value) {
+  display: flex;
+  flex-direction: column;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > .is-comparing:not(.circle-container) .value-container > :not(.value) > div {
+  display: flex;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > .is-comparing:not(.circle-container) .value-container > :not(.value) > div > span:not(.delta-value) {
+  order: 2;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > .is-comparing:not(.circle-container) .value-container > :not(.value) > div .delta-value {
+  order: 1;
+  margin-right: 4px;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > .is-comparing:not(.circle-container) .value-container > :not(.value) > div .delta-value.negative-delta {
+  color: #fff;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > .is-comparing:not(.circle-container) .value-container > :not(.value) > div .delta-value.positive-delta {
+  color: #00FFB5;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > .is-comparing:not(.circle-container) .value-container > :not(.value) i {
+  font-size: 12px;
+}
+#legacy-html .design-page .widget-inner .fa-caret-down:before,
+#legacy-html .design-page .widget-inner .icon-caret-down:before {
+  content: "\f063" !important;
+}
+#legacy-html .design-page .widget-inner .fa-caret-up:before,
+#legacy-html .design-page .widget-inner .icon-caret-up:before {
+  content: "\f062" !important;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > .is-relative:not(.circle-container) {
+  text-align: center;
+  justify-content: center;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > .is-relative:not(.circle-container) > div {
+  width: 100%;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > .is-relative:not(.circle-container) .metric-label {
+  text-align: center;
+  margin-left: 0px;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > .is-relative:not(.circle-container) .value-container {
+  display:block;
+  margin-bottom: 15px !important;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > .is-relative:not(.circle-container) .comparison-container {
+  position: relative;
+  margin: auto;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > :not(.circle-container) .delta-value.negative-delta {
+  color: #fff;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > :not(.circle-container) .delta-value.positive-delta {
+  color: #00FFB5;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > .is-relative:not(.circle-container) i {
+  font-size: 17px;
+  margin-right: 4px;
+}
+#legacy-html .design-page .widget-inner .bignumber-widget > .is-relative:not(.circle-container) .comparison-container .comparison-card .is-flex.justify-center {
+  flex-direction: row-reverse;
+}
+</style>
+
+<!--EXEC SUMMARY-->
+<style>
+  executive-summary-display executive-summary-carousel-item > div {
+    background: rgb(242,250,255);
+    background: linear-gradient(130deg, rgba(242,250,255,1) 0%, rgba(212,233,247,1) 100%);
+    padding: 45px;
+    border-radius: 12px;
+    color: #0e223f;
+  }
+  executive-summary-display .title-container,
+  executive-summary-display .info-container{
+    display: none !important;
+  }
+  executive-summary-display executive-summary-carousel-item ul br {
+    display: none;
+  }
+  executive-summary-display h1 {
+    font-family: 'Proxima Nova', 'Lucinda Grande', 'Lato', sans-serif;
+    font-size: 4rem;
+    color: #0e223f;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  executive-summary-display h4 {
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  executive-summary-display executive-summary-carousel-item ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline-start: 15px !important;
+  }
+  executive-summary-display executive-summary-carousel-item ::marker {
+    color: #A3D1F0;
+  }
+  
+  @media (min-width: 768px) {
+    executive-summary-display executive-summary-carousel-item li {
+      flex: 1 1 calc(33.3% - 20px);
+      padding-left: 5px;
+      padding-right: 0px;
+    }
+    executive-summary-display executive-summary-carousel-item li:not(:nth-of-type(3n)) {
+      margin-right: 30px;
+    }
+  }
+  @media (max-width: 767px) {
+    executive-summary-display executive-summary-carousel-item > div {
+      padding: 30px;
+    }
+    executive-summary-display executive-summary-carousel-item li {
+      flex: 1 1 100%;
+    }
+  }
+  @media (max-width: 575px) {
+    executive-summary-display executive-summary-carousel-item > div {
+      padding: 15px;
+    }
+  }
+</style>
